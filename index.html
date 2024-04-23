@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" href="spotify favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container flex bg-blk">
+        <div class="left-part">
+
+            <div class="L-up bg-grey">
+                <ul>
+                    <img class="invert cross-sign" src="logos/cross.svg" alt="" width="1px">
+                    <li>
+                        <img class="invert" src="logos/home.svg" alt="home">Home
+                    </li>
+                    <li>
+                        <img class="invert" src="logos/search.svg" alt="home">Search
+                    </li>
+                </ul>
+            </div>
+
+            <div class="L-down border-blk bg-grey">
+                <ul>
+                    <li><img class="invert" src="logos/library.svg" alt="library">Library <img class="invert"
+                            src="logos/plus.svg" alt="add"></li>
+                </ul>
+
+                <div class="cards">
+                    <ul class="flex ">
+                        <li>Playlists</li>
+                        <li>Artists</li>
+                        <li>Podcasts and shows</li>
+                    </ul>
+                </div>
+
+                <div class="playlist ">
+                    <div class="playlist-search">
+                        <ul>
+                            <li><img class="invert" src="logos/search.svg" alt="search"></li>
+                            <li>Recents&nbsp<img class="invert recentt" src="logos/recent.svg" alt="search"></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="songList">
+                        <ul>
+                            <li>
+                                <div class="info ">
+                                    <img class="invert" src="logos/music-logo.svg" alt="">
+                                    <div>Sau asaman</div>
+                                    <div class="play-btn">
+                                        <img class="invert" src="logos/play.svg" alt="">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="create-playlist bg-grey">
+                <div class="press flex align-items justify-content">
+                    Create-Playlist&nbsp <img src="logos/plus.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="right-part bg-grey">
+            <div class="header ">
+                <div class="header-top flex">
+
+                    <div class="left-header">
+                        <ul class="flex">
+                            <img class=" ham " width="24px" class="flex align-items justify-content"
+                                src="logos/hamburger.svg" alt="">
+                            <li class="flex align-items justify-content"><img src="logos/left-arrow.svg" alt="arrow">
+                            </li>
+                            <li class="flex align-items justify-content"><img src="logos/right-arrow.svg" alt="arrow">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-header">
+                        <ul class="flex">
+                            <li><button>Explore Premium</button></li>
+                            <li class="flex align-items justify-content"><img class="invert" src="logos/notify.svg"
+                                    alt=""></li>
+                            <li class="flex align-items justify-content">logo</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header-cards">
+                    <ul>
+                        <li>All</li>
+                        <li>Music</li>
+                        <li>Podcasts</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- <div class="suggestion-cards flex">
+                <div class="st-card flex border align-items">
+                    <div class="st-card-left">
+                        <img src="" alt="">
+                    </div>
+                    <div class="st-card-right">
+                        Pop Mix
+                    </div>
+                </div>
+                <div class="st-card flex border align-items">
+                    <div class="st-card-left">
+                        <img src="" alt="">
+                    </div>
+                    <div class="st-card-right">
+                        Bruno Mars
+                    </div>
+                </div>
+                <div class="st-card flex border align-items">
+                    <div class="st-card-left">
+                        <img src="" alt="">
+                    </div>
+                    <div class="st-card-right">
+                        Manam Songs
+                    </div>
+                </div>
+                <div class="st-card flex border align-items">
+                    <div class="st-card-left">
+                        <img src="" alt="">
+                    </div>
+                    <div class="st-card-right ">
+                        Mahabharatha
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="hits-bar flex space-between align-items">
+                <div class="left-hits-bar">Today's Biggest Hits</div>
+                <div class="right-hits-bar">show all</div>
+            </div>
+
+            <div class="hits-cards flex m-5">
+
+                <!-- <div class="hit-card">
+                    <div class="green-p-btn flex align-items justify-content">
+                        <img src="logos/play.svg" alt="">
+                    </div>
+                    <img src="Images/playlis-01.jpeg" alt="Pl1">
+                    <h2>Mega Hit Mix</h2>
+                    <p>A mega mix of 75 favorites from the last few years! </p>
+                </div>
+
+
+
+                <div class="hit-card">
+                    <div class="green-p-btn flex align-items justify-content">
+                        <img src="logos/play.svg" alt="">
+                    </div>
+                    <img src="Images/playlis-02.jpeg" alt="Pl1">
+                    <h2>Bollywood Central</h2>
+                    <p>Bollywood Central, jab baje toh seedha dil ke centre mein lage ❤️ Cover - Animal</p>
+                </div>
+
+
+
+                <div class="hit-card">
+                    <div class="green-p-btn flex align-items justify-content">
+                        <img src="logos/play.svg" alt="">
+                    </div>
+                    <img src="Images/playlis-03.jpeg" alt="Pl1">
+                    <h2>Pop Shots </h2>
+                    <p>All your pop favorites!
+                        Cover: Zayn</p>
+                </div>
+
+
+
+                <div class="hit-card">
+                    <div class="green-p-btn flex align-items justify-content">
+                        <img src="logos/play.svg" alt="">
+                    </div>
+                    <img src="Images/playlis-04.jpeg" alt="Pl1">
+                    <h2>Today’s Top Hits</h2>
+                    <p>Teddy Swims is on top of the Hottest 50!</p>
+                </div>
+
+
+
+                <div class="hit-card">
+                    <div class="green-p-btn flex align-items justify-content">
+                        <img src="logos/play.svg" alt="">
+                    </div>
+                    <img src="Images/playlis-05.jpeg" alt="Pl1">
+                    <h2>Trending Now India</h2>
+                    <p>Every track you're listening/should be listening to ;) Cover- Animal</p>
+                </div> -->
+
+                <!-- <div class="hit-card" data-folder="original">
+                    <div class="green-p-btn flex align-items justify-content">
+                        <img src="logos/play.svg" alt="origin">
+                    </div>
+                    <img src="Images/playlis-05.jpeg" alt="Pl1">
+                    <h2>Original</h2>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="hit-card" data-folder="copies">
+                    <div class="green-p-btn flex align-items justify-content">
+                        <img src="logos/play.svg" alt="copies">
+                    </div>
+                    <img src="Images/playlis-05.jpeg" alt="Pl1">
+                    <h2>Copies</h2>
+                    <p>Lorem, ipsum dolor.</p>
+                </div> -->
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <div class="player flex">
+        <div class="above-seekbar ">
+            <div class="song-info"> </div>
+            <div class="player-part-2 playerr flex justify-content align-items">
+                <div class="prev-song">
+                    <img src="logos/left-music.svg" alt="">
+                </div>
+                <div class="play-pause">
+                    <div class="play-pause-outline flex justify-content align-items">
+                        <img src="logos/play.svg" alt="">
+                    </div>
+                </div>
+                <div class="next-song">
+                    <img src="logos/right-music.svg" alt="">
+                </div>
+            </div>
+            <div class="songtime-volume flex space-around">
+                <div class="song-time"> </div>
+                <div class="volume flex justify-content align-items">
+                    <img src="logos/sound.svg" class="invert" alt="">&nbsp
+                    <div class="range">
+                        <input type="range" name="volume" id="volume-seekbar">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seekbar">
+            <div class="circle"> </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
